@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me - Elisa Park</title> <!-- Updated title -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional styles specific to this page */
+    h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: xxx-large;
+    }
+    body {
+      background-color: #001f3f; /* Navy background color */
+      color: #fff; /* White text color */
+      text-align: center;
+      font-family: Bebas Neue, sans-serif;
+      margin: 0; /* Remove default body margin */
+      padding: 0; /* Remove default body padding */
+    }
+    .navbar-item {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .navbar-item a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      padding: 10px;
+      background-color: #338de7; /* Gold background color for navigation filler boxes */
+      border-radius: 5px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: x-large;
+      font-style: italic;
+    }
+    .content-image {
+      max-width: 1000px; /* Set the maximum width to 1000px */
+      width: 100%;
+    }
+    .content-item {
+      text-align: center;
+      margin: 20px auto; /* Center the content and reduce vertical margin */
+      padding: 20px;
+      background-color: #f7f7f7; /* Light gray background color for content items */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      max-width: 800px; /* Limit content width */
+    }
+    .content-title,
+    .content-description {
+      color: #001f3f; /* Navy text color for content */
+      font-size: larger;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+    .content-title {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: xx-large;
+      text-decoration: underline;
+    }
+    .nav-cont {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    .content-section {
+      margin-top: 80px; /* Add spacing between the navigation bar and content */
+    }
+    .content-description {
+      text-align: left; /* Align contact information to the left */
+      margin-left: 20px; /* Add left margin for contact information */
+    }
+    .content-description ul {
+      list-style-type: disc; /* Use bullet points for the list */
+      padding-left: 20px; /* Add left padding for bullet points */
+      margin-top: 10px; /* Reduce top margin */
+      text-align: center;
+    }
+    .content-description a {
+      color: #338de7; /* Blue link color */
+    }
+    .content-description a:hover {
+      text-decoration: underline; /* Underline links on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-cont">
+      <nav class="navbar">
+        <ul class="navbar-menu">
+          <li class="navbar-item"><a href="index.html">Home</a></li> 
+          <li class="navbar-item"><a href="About.html">About Me</a></li>
+          <li class="navbar-item"><a href="Experience.html">Work Experience</a></li>
+          <li class="navbar-item"><a href="Activities.html">Activities</a></li>
+          <li class="navbar-item"><a href="Contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="content content-section"> <!-- Added the "content-section" class for spacing -->
+    <div class="content-item">
+      <h2 class="content-title">Contact Information</h2>
+      <p class="content-description">
+        Feel free to reach out to me for any inquiries or collaboration opportunities. You can contact me through the following channels:
+      </p>
+      <ul class="content-description"> <!-- List of contact information -->
+        <li>Email: epark311@gatech.edu</li>
+        <li>Phone: (404) 819-7026</li>
+        <li>LinkedIn: <a href="www.linkedin.com/in/elisa-park-737351250" target="_blank">LinkedIn Profile</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
