@@ -12,6 +12,7 @@
       font-weight: bold;
       text-decoration: underline;
       font-size: xxx-large;
+      color: pink;
     }
     body {
       background-color: #001f3f; /* Navy background color */
@@ -25,10 +26,10 @@
     }
     .navbar-item a {
       text-decoration: none;
-      color: white;
+      color: #001f3f;
       display: block;
       padding: 10px;
-      background-color: #338de7; /* Gold background color for navigation filler boxes */
+      background-color: beige; 
       border-radius: 5px;
       text-align: center;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -37,25 +38,17 @@
       font-style: italic;
     }
     .content-image {
-      max-width: 1000px; /* Set the maximum width to 1000px */
-      width: 100%;
+      max-width: 70%; /* Set the maximum width to 100% */
+      height: auto; /* Maintain aspect ratio for images */
+      border-radius: 5px;
     }
-    .content-item:nth-child(1) {
-      background-color: white; /* First filler box color */
-    }
-    .content-item:nth-child(2) {
-      background-color: #338de7; /* Second filler box color */
-    }
-    .content-item:nth-child(3) {
-      background-color: white; /* Third filler box color */
-    }
+    .content-item:nth-child(1),
+    .content-item:nth-child(2),
+    .content-item:nth-child(3),
     .content-item:nth-child(4) {
-      background-color: #338de7; /* Fourth filler box color */
-    }
-    .content-item {
-      text-align: center;
-      margin: 20px;
-      padding: 20px;
+      background-color: white; /* Set background color for content boxes */
+      margin: 10px; /* Reduced margin */
+      padding: 15px; /* Reduced padding */
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -85,7 +78,7 @@
   <header class="header">
     <div class="header-content">
       <h1 class="header-title">Elisa Park</h1>
-      <h2 class="header-subtitle" style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; color: goldenrod">Student Athlete at Georgia Tech</h2>
+      <h2 class="header-subtitle" style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; color: white">Student Athlete at Georgia Tech</h2>
     </div>
   </header>
 
@@ -110,7 +103,7 @@
 
     <div class="content-item">
       <a href="Experience.html" class="content-link">
-        <img src="experience.png" alt="Image 2" class="content-image">
+        <img src="experience.jpg" alt="Image 2" class="content-image">
         <h2 class="content-title">Work Experience</h2>
         <p class="content-description">Learn about my work experience.</p>
       </a>
